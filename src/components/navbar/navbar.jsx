@@ -14,7 +14,7 @@ const navbar = ({setsignup}) => {
         </div>
         <div className="nav-center">
             <ul>
-                <Link to='/' onClick={()=>updatesetmenu('home')}className={setmenu=='home'?'active':''}>Home</Link>
+                <Link to='' onClick={()=>updatesetmenu('home')}className={setmenu=='home'?'active':''}>Home</Link>
                 < a href='#category' onClick={()=>updatesetmenu('category')}className={setmenu=='category'?'active':''}>Categeory</a>
                 < a href='#mobile-app' onClick={()=>updatesetmenu('mobile-app')}className={setmenu=='mobile-app'?'active':''}>MobileApp</a>
                 < a href='#contact-us' onClick={()=>updatesetmenu('contact-us')}className={setmenu=='contact-us'?'active':''}>ContactUs</a>
